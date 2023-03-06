@@ -15,6 +15,7 @@ docs_baseurl: /MI
 languages:
   - de
   - en
+  - es
 
 # Destination directory
 # ---------------------
