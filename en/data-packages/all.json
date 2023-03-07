@@ -14,24 +14,68 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Year"
           },
           {
-            "name": "Group",
+            "name": "Gebietseinheit",
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "Baden-Württember",
+                "Bayern",
+                "Berlin",
+                "Brandenburg",
+                "Bremen ",
+                "Hamburg",
+                "Hessen",
+                "Mecklenburg-Vorpommern",
+                "Niedersachsen",
+                "Nordrhein-Westfalen",
+                "Rheinland-Pfalz",
+                "Saarland",
+                "Sachsen",
+                "Sachsen-Anhalt",
+                "Schleswig-Holstein",
+                "Thüringe",
+                "Deutschland",
                 ""
               ]
             },
-            "title": "Group"
+            "title": "Gebietseinheit"
+          },
+          {
+            "name": "Kategorie",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "\"Einwohner/-innen am 31.12.\"",
+                "\"Veränderung der Zahl der Einwohner/-inne\"",
+                ""
+              ]
+            },
+            "title": "Kategorie"
+          },
+          {
+            "name": "Unit",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Anzahl",
+                "Prozent",
+                ""
+              ]
+            },
+            "title": "Unit"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "string",
             "title": "Value"
           }
         ]
