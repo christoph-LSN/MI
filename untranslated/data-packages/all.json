@@ -14,7 +14,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "Gebietseinheit",
@@ -48,7 +48,6 @@
             "constraints": {
               "enum": [
                 "\"Einwohner/-innen am 31.12.\"",
-                "\"Veränderung der Zahl der Einwohner/-inne\"",
                 ""
               ]
             }
@@ -59,7 +58,6 @@
             "constraints": {
               "enum": [
                 "Anzahl",
-                "Prozent",
                 ""
               ]
             }
@@ -70,7 +68,7 @@
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       },
