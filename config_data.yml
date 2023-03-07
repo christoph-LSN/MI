@@ -51,12 +51,18 @@ inputs:
   - class: InputYamlMeta
     path_pattern: indicator-config/*-*.yml
     git: false
-  - class: InputYamlMeta
+  - class: InputExcelMeta
     # This describes the meta files, relative to the "src_dir" indicated above.
-    path_pattern: meta/*-*.yml
+    path_pattern: meta/*-*.xlsx
     # This specifies whether or not to use Git to calculate the "last updated"
     # dates for data files.
-    git: true
+    git: true  
+  #- class: InputYamlMeta
+    # This describes the meta files, relative to the "src_dir" indicated above.
+  #  path_pattern: meta/*-*.yml
+    # This specifies whether or not to use Git to calculate the "last updated"
+    # dates for data files.
+  # git: true
     # This specifies an alternate folder to look in for Git-versioned data files,
     # when calculating the "last updated" dates for data files. This defaults to
     # "data" (the folder where the data files actually exist.) Most sites will not
