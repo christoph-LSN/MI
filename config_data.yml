@@ -82,8 +82,8 @@ translations:
       source: https://github.com/open-sdg/sdg-translations.git
       tag: 2.1.0
   # This pulls in translations from a local 'translations' folder.
-  #- class: TranslationInputYaml
-  #  source: translations
+  - class: TranslationInputYaml
+    source: translations
 
 # Reporting status extra fields
 # -----------------------------
