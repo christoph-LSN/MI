@@ -12,9 +12,9 @@ docs_baseurl: /MI
 # ---------
 # This tells sdg-build to perform "translated builds" for each of the specified
 # languages. Each build is in its own subfolder - one for each language.
-#languages:
-#  - en
-#  - es
+languages:
+  - en
+  - es
 
 # Destination directory
 # ---------------------
@@ -81,9 +81,9 @@ translations:
       source: https://github.com/open-sdg/sdg-translations.git
       tag: 2.1.0
   # This pulls in translations from a local 'translations' folder.
-translations:
-  - class: TranslationInputYaml
-    source: /translations
+#translations:
+#  - class: TranslationInputYaml
+#    source: /translations
 
 # Reporting status extra fields
 # -----------------------------
