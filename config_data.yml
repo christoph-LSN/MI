@@ -116,13 +116,16 @@ map_layers:
   - geojson_file: laender.geojson
     name_property: GEN
     id_property: AGS
-    output_subfolder: laender
+    output_subfolder: map
     filename_prefix: indicator_
-#  - geojson_file: kreise.geojson
-#    name_property: GEN
-#    id_property: ARS
-#    output_subfolder: kreise
-#    filename_prefix: indicator_
+
+
+  - geojson_file: map/laender.geojson
+    name_property: GEN
+    id_property: AGS
+    output_subfolder: map
+    filename_prefix: indicator_
+
 
 
 # Documentation settings
