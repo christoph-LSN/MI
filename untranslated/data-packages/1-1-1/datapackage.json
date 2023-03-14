@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
+            "type": "number"
           },
           {
             "name": "Gebietseinheit",
@@ -45,7 +45,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "\"Einwohner/-innen am 31.12.\"",
+                "Einwohner/-innen am 31.12.",
                 ""
               ]
             }
@@ -66,7 +66,7 @@
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }
