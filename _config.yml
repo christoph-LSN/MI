@@ -41,7 +41,7 @@ plugins:
 map_layers:
   -
     # The subfolder under 'geojson' in the data repository holding the GeoJSON files:
-    subfolder:
+    subfolder: map
     # The label to use in the "Download GeoJSON" button:
     label: indicator.map
     # The minimum zoom at which this layer should be visible.
@@ -63,7 +63,7 @@ map_options:
   minZoom: 5
   maxZoom: 10
   # If you would like to use tile (background) imagery, use these:
-  tileURL: replace me
+  tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
   tileOptions:
     id: 'mapbox.light'
     accessToken: 'pk.eyJ1IjoiY2hyaXN0b3BoNDcxMSIsImEiOiJjanp1cjdpbzQwMTFwM29tdzJ2ZTh3Ymo4In0.C7_7e3AFcMaF_QBg6MaT0Q'
