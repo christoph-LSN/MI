@@ -27,6 +27,15 @@ collections:
 plugins:
   - jekyll-remote-theme
   - jekyll-open-sdg-plugins
+  
+#Map Layer
+map_layers:
+- min_zoom: 0
+  max_zoom: 20
+  staticBorders: false
+  subfolder: laender
+  label: indicator.map
+  
 
 # Exclude some files/folders.
 exclude:
