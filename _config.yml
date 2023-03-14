@@ -29,12 +29,21 @@ plugins:
   - jekyll-open-sdg-plugins
   
 #Map Layer
+
 map_layers:
-- min_zoom: 0
-  max_zoom: 20
-  staticBorders: false
-  subfolder: laender
-  label: indicator.map
+  - geojson_file: laender.geojson
+    name_property: GEN
+    id_property: AGS
+    output_subfolder: laender
+    filename_prefix: indicator_
+
+
+#map_layers:
+#- min_zoom: 0
+#  max_zoom: 20
+#  staticBorders: false
+#  subfolder: laender
+#  label: indicator.map
   
 map_options:
   disaggregation_controls: true
