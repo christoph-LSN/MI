@@ -14,7 +14,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number"
+            "type": "integer"
           },
           {
             "name": "Gebietseinheit",
@@ -53,7 +53,7 @@
             }
           },
           {
-            "name": "Unit",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
@@ -68,7 +68,7 @@
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },

@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
@@ -54,7 +54,7 @@
             "title": "Kategorie"
           },
           {
-            "name": "Unit",
+            "name": "Units",
             "type": "string",
             "constraints": {
               "enum": [
@@ -62,7 +62,7 @@
                 ""
               ]
             },
-            "title": "Unit"
+            "title": "Units"
           },
           {
             "name": "GeoCode",
@@ -71,7 +71,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
