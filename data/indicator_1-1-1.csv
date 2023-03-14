@@ -1,4 +1,4 @@
-Year,Gebietseinheit,Kategorie,Unit,GeoCode,Value
+Year,Gebietseinheit,Kategorie,Units,GeoCode,Value
 2016,Baden-Württember,Einwohner/-innen am 31.12.,Anzahl,code08,10951893
 2016,Bayern,Einwohner/-innen am 31.12.,Anzahl,code09,12930751
 2016,Berlin,Einwohner/-innen am 31.12.,Anzahl,code11,3574830
@@ -50,4 +50,3 @@ Year,Gebietseinheit,Kategorie,Unit,GeoCode,Value
 2021,Schleswig-Holstein,Einwohner/-innen am 31.12.,Anzahl,code01,2922005
 2021,Thüringe,Einwohner/-innen am 31.12.,Anzahl,code16,2108863
 2021,Deutschland,Einwohner/-innen am 31.12.,Anzahl,,83237124
-,,,,,
