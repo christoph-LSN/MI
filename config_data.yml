@@ -112,12 +112,12 @@ reporting_status_extra_fields: []
 #    output_subfolder: regions
 #    filename_prefix: indicator_
 
-map_layers:
-  - geojson_file: laender.geojson
-    name_property: GEN
-    id_property: AGS
-    output_subfolder: laender
-    filename_prefix: indicator_
+#map_layers:
+#  - geojson_file: laender.geojson
+#    name_property: GEN
+#    id_property: AGS
+#    output_subfolder: laender
+#    filename_prefix: indicator_
 #  - geojson_file: kreise.geojson
 #    name_property: GEN
 #    id_property: ARS
