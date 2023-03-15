@@ -3,61 +3,6 @@
   "title": "All indicators",
   "resources": [
     {
-      "path": "1-1-2/data.csv",
-      "name": "1-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Año"
-          },
-          {
-            "name": "Land",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Bayern",
-                "Baden-Württemberg",
-                "Niedersachsen",
-                "Timbujtu",
-                "Großgoltern",
-                "Nirvana",
-                "Havanna",
-                "Bremen",
-                "Hamburg",
-                "Berlin",
-                "Hannover",
-                "Gutsunder",
-                "Frankreich",
-                "Italien",
-                "Barcelona",
-                "Übersee",
-                ""
-              ]
-            },
-            "title": "Land"
-          },
-          {
-            "name": "GeoCode",
-            "type": "string",
-            "title": "GeoCode"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "1-1-2"
-    },
-    {
       "path": "1-1-1/data.csv",
       "name": "1-1-1",
       "profile": "tabular-data-resource",
@@ -134,6 +79,61 @@
         ]
       },
       "title": "Proportion of the population living below the international poverty line by sex, age, employment status and geographic location (urban/rural)"
+    },
+    {
+      "path": "1-2-1/data.csv",
+      "name": "1-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Año"
+          },
+          {
+            "name": "Land",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bayern",
+                "Baden-Württemberg",
+                "Niedersachsen",
+                "Timbujtu",
+                "Großgoltern",
+                "Nirvana",
+                "Havanna",
+                "Bremen",
+                "Hamburg",
+                "Berlin",
+                "Hannover",
+                "Gutsunder",
+                "Frankreich",
+                "Italien",
+                "Barcelona",
+                "Übersee",
+                ""
+              ]
+            },
+            "title": "Land"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      },
+      "title": "Proportion of population living below the national poverty line, by sex and age"
     },
     {
       "path": "10-7-2/data.csv",
@@ -3398,30 +3398,6 @@
         ]
       },
       "title": "Proportion of individuals using the Internet"
-    },
-    {
-      "path": "1-2-1/data.csv",
-      "name": "1-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Año"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          }
-        ]
-      },
-      "title": "Proportion of population living below the national poverty line, by sex and age"
     },
     {
       "path": "17-15-1/data.csv",

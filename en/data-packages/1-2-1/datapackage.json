@@ -12,12 +12,43 @@
         "fields": [
           {
             "name": "Year",
-            "type": "number",
+            "type": "integer",
             "title": "Year"
           },
           {
+            "name": "Land",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Bayern",
+                "Baden-Württemberg",
+                "Niedersachsen",
+                "Timbujtu",
+                "Großgoltern",
+                "Nirvana",
+                "Havanna",
+                "Bremen",
+                "Hamburg",
+                "Berlin",
+                "Hannover",
+                "Gutsunder",
+                "Frankreich",
+                "Italien",
+                "Barcelona",
+                "Übersee",
+                ""
+              ]
+            },
+            "title": "Land"
+          },
+          {
+            "name": "GeoCode",
+            "type": "string",
+            "title": "GeoCode"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           }
         ]
