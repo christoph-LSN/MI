@@ -20,6 +20,21 @@
             "constraints": {
               "enum": [
                 "Bayern",
+                "Baden-Württemberg",
+                "Niedersachsen",
+                "Timbujtu",
+                "Großgoltern",
+                "Nirvana",
+                "Havanna",
+                "Bremen",
+                "Hamburg",
+                "Berlin",
+                "Hannover",
+                "Gutsunder",
+                "Frankreich",
+                "Italien",
+                "Barcelona",
+                "Übersee",
                 ""
               ]
             }
